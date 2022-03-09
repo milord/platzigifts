@@ -14,7 +14,7 @@ function plz_register_blocks(){
     register_block_type(
         'plz/register',
         array(
-            'editor-script' => 'plz-register-block',
+            'editor_script' => 'plz-register-block',
         )
     );
 }

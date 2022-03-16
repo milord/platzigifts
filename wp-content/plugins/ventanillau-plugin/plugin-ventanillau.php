@@ -18,6 +18,7 @@ function ventanilla_dash_menu() {
         add_submenu_page( 'colores.php', 'Naranja', 'Exámenes', 'read', 'examenes.php', '');
         add_submenu_page( 'colores.php', 'Verde', 'Becas', 'read', 'becas.php', '');
         add_submenu_page( 'colores.php', 'Gris', 'Titulación', 'read', 'titulacion.php', '');
+        add_submenu_page( 'colores.php', 'Gris', 'Servicio Social', 'read', 'ssocial.php', '');
         #remove_submenu_page( 'colores.php','colores.php' );
 }
         add_action( 'admin_menu', 'ventanilla_dash_menu');
